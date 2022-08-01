@@ -1,9 +1,13 @@
+import argparse
 import json
 import os
 import xml.etree.ElementTree as ET
 import utils.xml as xml_utils
 
-f = open(os.path.join(os.path.dirname(__file__), '../source_files/sampledata.json'), "r")
+filename = os.path.join(os.path.dirname(__file__),
+                        '../source_files/sampledata-multiple.json')
+
+f = open(filename, "r")
 
 data = json.load(f)
 # root xml element
@@ -22,6 +26,7 @@ for entity in data['Entities']:
     xml_utils.convert_demographics(demographics, entity['Demographics'])
     xml_utils.convert_clinical_data(clinical_data, entity['Clinical Data'])
 
+xml_filename = f.name.replace('.json', "")
 
 tree = ET.ElementTree(root)
-tree.write("test.xml")
+tree.write(xml_filename + '.xml')

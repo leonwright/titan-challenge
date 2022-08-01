@@ -1,6 +1,7 @@
 import re
 import xml.etree.ElementTree as ET
 
+
 def remove_spaces_and_symbols(string):
     string = string.replace(" ", "")
     string = re.sub(r'[^\w]', ' ', string)

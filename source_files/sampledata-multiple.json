@@ -1,0 +1,162 @@
+{
+  "Entities": [
+    {
+      "Demographics": {
+        "Patient Name": "Jack Sparrow",
+        "Patient Phone": "555-555-5555",
+        "Patient Email": "555-555-5555",
+        "DOB": "09/18/1985",
+        "Insurance Provider": "Blue Cross Blue Shield of Oklahoma",
+        "Insurance Policy#": "YUP8357788",
+        "Referring Physician": "Dr. Block",
+        "Referring Physician email": "block@block.com"
+      },
+      "Clinical Data": [
+        {
+          "ICD10s": [
+            {
+              "Description": "Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene",
+              "Code": "E11.51",
+              "Score": 0.8875475525856018
+            },
+            {
+              "Description": "Type 2 diabetes mellitus with diabetic nephropathy",
+              "Code": "E11.21",
+              "Score": 0.7889286875724793
+            },
+            {
+              "Description": "Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene",
+              "Code": "E10.51",
+              "Score": 0.7600046992301941
+            },
+            {
+              "Description": "Type 2 diabetes mellitus with other diabetic kidney complication",
+              "Code": "E11.29",
+              "Score": 0.7460819482803345
+            }
+          ],
+          "Medications": [
+            {
+              "Text": "Levothyroxine",
+              "DOSAGE": "20 Milligrams",
+              "ROUTE_OR_MODE": "p.o.",
+              "FREQUENCY": "once daily"
+            },
+            {
+              "Text": "Lisinipril",
+              "DOSAGE": "125 micrograms",
+              "ROUTE_OR_MODE": "p.o.",
+              "FREQUENCY": "once daily"
+            }
+          ],
+          "Lab Results": [
+            {
+              "Type": "PSA",
+              "Result": 4.2,
+              "Date": "10/01/2021"
+            },
+            {
+              "Type": "PSA",
+              "Result": 3.1,
+              "Date": "06/01/2021"
+            },
+            {
+              "Type": "Creatinine",
+              "Result": 0.7,
+              "Date": "9/01/2021"
+            },
+            {
+              "Type": "Creatinine",
+              "Result": 0.8,
+              "Date": "10/01/2021"
+            },
+            {
+              "Type": "Creatinine",
+              "Result": 1.1,
+              "Date": "11/01/2021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Demographics": {
+        "Patient Name": "Leon Wright",
+        "Patient Phone": "876-482-0143",
+        "Patient Email": "wrightleon@outlook.com",
+        "DOB": "11/10/1998",
+        "Insurance Provider": "Sagicor Jamaica",
+        "Insurance Policy#": "GHSKD34SD",
+        "Referring Physician": "Dr. Freeman",
+        "Referring Physician email": "thisguy@example.com"
+      },
+      "Clinical Data": [
+        {
+          "ICD10s": [
+            {
+              "Description": "Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene",
+              "Code": "E11.51",
+              "Score": 0.8875475525856018
+            },
+            {
+              "Description": "Type 2 diabetes mellitus with diabetic nephropathy",
+              "Code": "E11.21",
+              "Score": 0.7889286875724793
+            },
+            {
+              "Description": "Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene",
+              "Code": "E10.51",
+              "Score": 0.7600046992301941
+            },
+            {
+              "Description": "Type 2 diabetes mellitus with other diabetic kidney complication",
+              "Code": "E11.29",
+              "Score": 0.7460819482803345
+            }
+          ],
+          "Medications": [
+            {
+              "Text": "Levothyroxine",
+              "DOSAGE": "20 Milligrams",
+              "ROUTE_OR_MODE": "p.o.",
+              "FREQUENCY": "once daily"
+            },
+            {
+              "Text": "Lisinipril",
+              "DOSAGE": "125 micrograms",
+              "ROUTE_OR_MODE": "p.o.",
+              "FREQUENCY": "once daily"
+            }
+          ],
+          "Lab Results": [
+            {
+              "Type": "PSA",
+              "Result": 4.2,
+              "Date": "10/01/2021"
+            },
+            {
+              "Type": "PSA",
+              "Result": 3.1,
+              "Date": "06/01/2021"
+            },
+            {
+              "Type": "Creatinine",
+              "Result": 0.7,
+              "Date": "9/01/2021"
+            },
+            {
+              "Type": "Creatinine",
+              "Result": 0.8,
+              "Date": "10/01/2021"
+            },
+            {
+              "Type": "Creatinine",
+              "Result": 1.1,
+              "Date": "11/01/2021"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
