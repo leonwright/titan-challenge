@@ -5,7 +5,6 @@ import {
 } from "../context/application.context";
 import { useSearch } from "../hooks/queries/search";
 import SearchResult from "./SearchResult";
-import axios from "axios";
 
 function Search() {
   const applicationContext = useContext(ApplicationContext);
@@ -40,6 +39,11 @@ function Search() {
       {!isLoading && searchResults?.length === 0 && query !== "" && (
         <div className="bg-white w-96 mt-3 rounded-lg px-4 border border-cyan-900">
           <div className="text-center text-gray-700">No results found</div>
+        </div>
+      )}
+      {isLoading && (
+        <div className="bg-white w-96 mt-3 rounded-lg px-4 border border-cyan-900">
+          <div className="text-center text-gray-700">Loading...</div>
         </div>
       )}
     </div>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { data } from "./../data";
 
 export interface ISearchResult {
   username: string;
