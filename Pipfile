@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 elasticsearch = "*"
+pypdf2 = "*"
+pillow = "*"
+pytesseract = "*"
 
 [dev-packages]
 autopep8 = "*"
